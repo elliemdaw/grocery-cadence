@@ -26,9 +26,12 @@ cd grocery-cadence
 
 #### Setup
 Highly recommend using a python virtual environment (for all python things :) ). After you've created one and started it...
-`pip install requirements.txt`
-`ollama serve`
-`ollama run gemma2:2b`
+
+```bash
+pip install requirements.txt
+ollama serve
+ollama run gemma2:2b
+```
 
 In the project folder:
 `chmod +x extract_and_analyze.sh`
