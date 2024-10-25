@@ -57,8 +57,6 @@ def complex_grouping(items, groups=[]):
         print(f"Error generating ollama response: {e}")
         return defaultdict(list)
     
-    print(f"Ollama response: {response['response']}")
-
     # Attempt to parse the response as JSON
     import json
     try:
