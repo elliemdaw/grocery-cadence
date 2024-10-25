@@ -12,7 +12,7 @@ This repo contains scripts to analyze grocery purchasing patterns from a structu
 1. **AppleScript**: Extracts completed items from the specified Reminders list (Mac only).
 2. **Bash Script**: Runs AppleScript (extract from specified Reminders list name, save to csv, run analysis)
 3. **Python Script**: Analyzes data, provides item grouping and cadence analysis.
-4. **Ollama**: Used for the complex mode in item grouping (requires [Gemma 2b model](https://ollama.com/library/gemma2)).
+4. **Ollama**: Used for the complex mode in item grouping (requires [Gemma 2b model](https://ollama.com/library/gemma2)). Instructions to get set up [here](https://github.com/ollama/ollama).
 
 ### Install
 
