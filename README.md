@@ -20,6 +20,7 @@ This repo contains scripts to analyze grocery purchasing patterns from a structu
 git clone https://github.com/elliemdaw/grocery-cadence.git
 cd grocery-cadence
 ```
+(or fork a copy into your own repos)
 
 ### Usage
 
@@ -63,7 +64,7 @@ python3 analyze_grocery_categories.py --mode complex --input "/path/to/grocery_d
 ## Assumptions and Limitations
 
 - On my machine, the complex method takes about 20 seconds to run (just using the python script)
-- The Apple Script is extremely slow, to speed it up it grabs reminders for the prior 365 days
+- The Apple Script is **extremely** slow, to speed it up it grabs reminders for the prior 365 days
 - Tables are big in complex mode
 - Bash script calls the Apple Script, so therefore the bash script won't work on other platforms.
 - Python script assumes a csv with one header row and two data columns (in order): item, purchase date formatted as "%Y-%m-%dT%H:%M:%S"
@@ -75,3 +76,4 @@ python3 analyze_grocery_categories.py --mode complex --input "/path/to/grocery_d
 - Better parsing in case of invalid JSON from LLM
 - Configurability of model
 - Source grocery data from elsewhere
+- Speed up the Apple Script...
