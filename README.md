@@ -65,7 +65,6 @@ python3 analyze_grocery_categories.py --mode complex --input "/path/to/grocery_d
 
 - On my machine, the complex method takes about 20 seconds to run (just using the python script)
 - The Apple Script is **extremely** slow, to speed it up it grabs reminders for the prior 365 days
-- Tables are big in complex mode
 - Bash script calls the Apple Script, so therefore the bash script won't work on other platforms.
 - Python script assumes a csv with one header row and two data columns (in order): item, purchase date formatted as "%Y-%m-%dT%H:%M:%S"
 - The complex grouping requires Gemma2 to return JSON (I haven't had issues so far... *knock on wood*)
